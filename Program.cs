@@ -94,6 +94,18 @@
 
 
 
+            #region 7 - If with && Operator
+
+            int totalPages = 464;
+            bool isAvailable = true;
+
+            if (totalPages > 300 && isAvailable)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+
+            #endregion
+
         }
     }
 }
