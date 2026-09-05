@@ -77,6 +77,22 @@
             #endregion
 
 
+            #region 6 - If Else
+
+            int bookPages = 464;
+
+            if (bookPages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
+
+            #endregion
+
+
 
         }
     }
