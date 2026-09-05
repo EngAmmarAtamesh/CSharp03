@@ -63,7 +63,18 @@
             #endregion
 
 
+            #region 5 - Boxing and Unboxing
 
+            int copies = 100;
+
+            object obj = copies;          // Boxing
+
+            int newCopies = (int)obj;     // Unboxing
+
+            Console.WriteLine(copies);
+            Console.WriteLine(newCopies);
+
+            #endregion
 
 
 
