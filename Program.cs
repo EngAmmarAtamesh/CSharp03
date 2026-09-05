@@ -51,6 +51,21 @@
             #endregion
 
 
+            #region 4 - Int to String using ToString
+
+            int pagesNumber = 464;
+
+            string pagesString = pagesNumber.ToString();
+
+            Console.WriteLine(pagesString);
+            Console.WriteLine(pagesString.GetType());
+
+            #endregion
+
+
+
+
+
 
         }
     }
