@@ -15,6 +15,20 @@
             Console.WriteLine(priceInt);
 
             #endregion
+
+            #region 2 - String to Int using Convert
+
+            string pagesText = "464";
+
+            int pages = Convert.ToInt32(pagesText);
+
+            Console.WriteLine(pages);
+
+            #endregion
+
+
+
+
         }
     }
 }
